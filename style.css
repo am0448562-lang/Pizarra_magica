@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e1e1e; /* Color de fondo del aula */
+    font-family: 'Comic Sans MS', 'Segoe UI', cursive, sans-serif; /* Un toque más escolar */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#canvas-container {
+    /* Un marco de madera simulado para el pizarrón */
+    border: 15px solid #8B5A2B; 
+    border-radius: 4px;
+    box-shadow: inset 0px 0px 20px rgba(0,0,0,0.8), 0px 10px 30px rgba(0,0,0,0.7);
+    overflow: hidden;
+}
+
+#info-status {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    pointer-events: none;
+}
+
+#status {
+    font-weight: bold;
+}
