@@ -5,7 +5,7 @@ let grosorPincel = 5;
 
 // CONFIGURACIÓN DEL WEBSOCKET (IP fija del modo Access Point)
 const ESP32_IP = '192.168.4.1'; 
-const socket = new WebSocket(`ws://${ESP32_IP}:81`);
+const socket = new WebSocket(`ws://${ESP32_IP}:82`);
 
 // Color verde pizarrón clásico escolar
 const COLOR_PIZARRON = [30, 63, 32]; 
